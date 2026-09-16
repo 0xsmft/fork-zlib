@@ -31,6 +31,9 @@ project "zlib"
 		systemversion "latest"
 		staticruntime "off"
 
+	filter "system:macosx"
+		staticruntime "off"
+
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
