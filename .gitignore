@@ -39,3 +39,12 @@ bin-int
 *.vcxproj.*
 *.vcxproj
 Makefile
+
+# Xcode files
+*.pbxproj
+*.xcworkspace
+*.xcworkspacedata
+*.xcuserstate
+*.xcsettings
+**/xcschemes
+**.gputrace
